@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    height: 100vh;
+}
+.counter-wrapper {
+    width: 200px;
+    height: 80px;
+    border: 1px solid;
+    margin: 50px;
+}
+.counter-wrapper > div:first-child {
+    display: flex;
+    align-items: center;
+}
+.counter-wrapper > div:first-child .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
+.counter-wrapper form {
+    display: flex;
+}
+.counter-wrapper form input, button {
+    width: 80px;
+    margin: 10px;
+    border-radius: 4px;
+}

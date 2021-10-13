@@ -1,0 +1,60 @@
+html, body { 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container { 
+    margin: 50px;
+    width: 300px;
+    border: 1px solid black;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.container form {
+    margin: 20px;
+}
+.container form > div {
+    display: flex;
+    margin: 10px 0;
+}
+.progress-bar-wrapper {
+    width: 150px;
+    border: 2px solid white;
+    outline: 1px solid black;
+    margin-left: 10px;
+    position: relative;
+}
+#auto-fill {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+@keyframes progress-animation {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+
+.timer {
+    display: block;
+}
+.container .duration {
+    align-items: center;
+}
+form #slider {
+    width: 180px;
+    margin-left: 10px;
+}
+.container #btn {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

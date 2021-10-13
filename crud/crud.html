@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./crud.css">
+    <title>Crud</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>Crud</header>
+        <div class="form">
+            <div>
+                <div>
+                    <div>
+                        <span>Filter prefix:</span>
+                        <input type="text" id="prefix" name="prefix" >
+                    </div>
+                    <div class="list-area">
+                        <ol class="list-name">
+                            
+                        </ol>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <span>Name:</span>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <span>Surname:</span>
+                        <input type="text" id="surname" name="surname">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="createBtn">Create</button>
+                <button type="button" id="updateBtn">Update</button>
+                <button type="button" id="deleteBtn">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./crud.js"></script>
+</body>
+
+</html>

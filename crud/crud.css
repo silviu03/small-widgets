@@ -1,0 +1,56 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 600px;
+    border: 1px solid black;
+    margin: 50px;
+}
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.form {
+    margin: 15px;
+}
+.form > div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+.form > div:first-child > div {
+    width: 48%;
+}
+.form .list-area {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.form input { 
+    display: block;
+    margin-bottom: 15px;
+}
+.form > div:last-child {
+    display: flex;
+    justify-content: space-around;
+}
+.form button {
+    height: 50px;
+    padding: 15px 30px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.selected,
+.updateSelected {
+    background-color: black;
+    color: red;
+}

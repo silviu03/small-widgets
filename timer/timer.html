@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./timer.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>Timer</header>
+        <form>
+            <div>
+                <span>Elapsed Time:</span>
+                <div class="progress-bar-wrapper">
+                    <div id="auto-fill"></div>
+                </div>
+            </div>
+            <span id="timer" data-id="">30</span>
+            <div class="duration">
+                <span>Duration:</span>
+                <input type="range" min="0" max="100" id="slider" name="slider" value="0">
+            </div>
+            <button type="button" id="btn">Reset</button>
+        </form>
+    </div>
+
+
+    <script src="./timer.js"></script>
+</body>
+</html>
