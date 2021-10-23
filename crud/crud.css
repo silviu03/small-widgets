@@ -54,3 +54,12 @@ header {
     background-color: black;
     color: red;
 }
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin: 10px;
+    }
+    .form input {
+        width: 140px;
+    }
+}

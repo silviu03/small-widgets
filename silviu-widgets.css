@@ -43,3 +43,13 @@ main iframe {
     height: 100vh;
     width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+    header nav {
+        margin-left: 0;
+        font-size: 13px;
+    }
+    header nav button {
+        margin: 0;
+    }
+}
